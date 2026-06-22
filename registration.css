@@ -1,32 +1,22 @@
 body {
-    /* margin: 0;
-    padding: 0; */
-    /* font-family: Arial, sans-serif; */
-    background: linear-gradient(to right, rgb(100, 225, 242), rgb(90, 159, 239));
     text-align: center;
+    background: linear-gradient(to right, rgb(100, 225, 242), rgb(90, 159, 239));
     color: rgb(10, 10, 10);
-    font-family: Arial, sans-serif;
 }
 
-/* body {
-        background: #f4f4f4;
-        margin: 0;
-        padding: 0;
-    } */
 a {
     color: rgb(13, 13, 13);
-    /* text-decoration: none; */
     margin: 20px;
     font-size: 25px;
-    /* font-weight: bold; */
+    margin: 15px;
 }
 
-.form-container {
+.container {
     width: 50%;
     margin: 40px auto;
     background: white;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 10px;    
     box-shadow: 0 0 10px gray;
 }
 
@@ -37,6 +27,7 @@ h2 {
 
 label {
     display: block;
+    text-align: left;
     margin-top: 10px;
     font-weight: bold;
 }
