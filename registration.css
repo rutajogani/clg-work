@@ -1,11 +1,11 @@
 body {
     text-align: center;
-    background: linear-gradient(to right, rgb(100, 225, 242), rgb(90, 159, 239));
+    background: linear-gradient(to right, rgb(128, 100, 242), rgb(85, 164, 254));
     color: rgb(10, 10, 10);
 }
 
 a {
-    color: rgb(13, 13, 13);
+    color: rgb(14, 14, 14);
     margin: 20px;
     font-size: 25px;
     margin: 15px;
@@ -16,8 +16,8 @@ a {
     margin: 40px auto;
     background: white;
     padding: 30px;
-    border-radius: 10px;    
-    box-shadow: 0 0 10px gray;
+    border-radius: 10px;   
+    border: 2px solid rgb(64, 100, 166);
 }
 
 h2 {
@@ -42,10 +42,11 @@ textarea {
 }
 
 button {
-    background: #7eaeed;
+    background: linear-gradient(to right, rgb(128, 100, 242), rgb(85, 164, 254));
     color: rgb(248, 245, 245);
     padding: 12px;
     border-radius: 5px;
+    border: 2px solid rgb(64, 100, 166);
     width: 100%;
     margin-top: 20px;
 }
